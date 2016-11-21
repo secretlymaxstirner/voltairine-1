@@ -393,7 +393,7 @@ def on_message(message):
         yield from client.send_message(message.channel, ':books: **The Conquest of Bread **: https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread\n:books: **The Commune of Paris **: https://theanarchistlibrary.org/library/petr-kropotkin-the-commune-of-paris\n:books: **Mutual Aid: A Factor of Evolution **: https://theanarchistlibrary.org/library/petr-kropotkin-mutual-aid-a-factor-of-evolution\n:books: **Communism and Anarchy**: https://theanarchistlibrary.org/library/petr-kropotkin-communism-and-anarchy')
 
     elif message.content.startswith('!leftcom'):
-        yield from client.send_message(message.channel, 'http://www.gooseberrycollective.net/bots/tankie2.png')
+        yield from client.send_message(message.channel, 'https://i.redd.it/gvz9lqn26kux.png')
 
     elif message.content.startswith('!leftunity'):
         yield from client.send_message(message.channel, 'http://www.gooseberrycollective.net/bots/love.png')
